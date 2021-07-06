@@ -16,7 +16,8 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 				  webstorm \
                   postman \
 				  docker \
-				  google-chrome
+				  google-chrome \
+				  datagrip
 
 /opt/homebrew/bin/brew install pyenv \
 			 python \
