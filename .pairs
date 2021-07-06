@@ -1,0 +1,9 @@
+pairs:
+  # <initials>: <Firstname> <Lastname>[; <email-id>]
+  df: Drew Flintosh ; drew.flintosh
+email:
+  prefix: pair
+  domain: strong.io
+  no_solo_prefix: true
+global: true  # Set to true for git-pair to change git configuration for all your projects
+
