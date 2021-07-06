@@ -19,8 +19,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 				  google-chrome \
 				  datagrip
 
-/opt/homebrew/bin/brew install pyenv \
-			 python \
+/opt/homebrew/bin/brew install python \
 			 git-lfs \
 			 gradle \
 			 mysql \
@@ -32,14 +31,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 			 r
 
 sudo xcode-select --install
-pyenv install 3.8.11
-pyenv install 3.9.6
-pyenv local 3.9.6
-
-CFLAGS="-I$(brew --prefix openssl)/include -I$(brew --prefix bzip2)/include -I$(brew --prefix readline)/include -I$(xcrun --show-sdk-path)/usr/include" 
-LDFLAGS="-L$(brew --prefix openssl)/lib -L$(brew --prefix readline)/lib -L$(brew --prefix zlib)/lib -L$(brew --prefix bzip2)/lib" 
-export PKG_CONFIG_PATH="$(brew --prefix readline)/lib/pkgconfig:$(brew --prefix openssl)/lib/pkgconfig:$(brew --prefix zlib)/lib/pkgconfig"
-arch -x86_64 pyenv install --patch 3.6.14 < <(curl -sSL https://github.com/python/cpython/commit/8ea6353.patch\?full_index\=1)
 
 sudo softwareupdate --install-rosetta
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
