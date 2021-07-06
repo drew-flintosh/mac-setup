@@ -16,7 +16,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 				  webstorm \
                   postman \
 				  docker \
-				  google-chrome	
+				  google-chrome
 
 /opt/homebrew/bin/brew install pyenv \
 			 python \
@@ -27,7 +27,8 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 			 node@14 \
 			 jq \
 			 parquet-tools \
-			 leveldb
+			 leveldb \
+			 r
 
 sudo xcode-select --switch /Applications/Xcode-beta.app
 sudo xcode-select --install
