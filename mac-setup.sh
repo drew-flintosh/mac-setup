@@ -32,10 +32,11 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 			 r
 
 sudo xcode-select --install
-pyenv install 3.6.14
 pyenv install 3.8.11
 pyenv install 3.9.6
 pyenv local 3.9.6
+
+
 
 sudo softwareupdate --install-rosetta
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
