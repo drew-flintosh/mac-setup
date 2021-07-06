@@ -31,7 +31,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 			 leveldb \
 			 r
 
-sudo xcode-select --switch /Applications/Xcode-beta.app
 sudo xcode-select --install
 pyenv install 3.6.14
 pyenv install 3.8.11
