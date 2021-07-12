@@ -28,7 +28,9 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 			 jq \
 			 parquet-tools \
 			 leveldb \
-			 r
+			 r \
+			 terraform \
+			 go
 
 sudo xcode-select --install
 
