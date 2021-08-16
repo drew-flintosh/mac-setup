@@ -11,13 +11,14 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 /opt/homebrew/bin/brew doctor
 
 /opt/homebrew/bin/brew install --cask sublime-text \
-				  pycharm-ce \
-				  google-cloud-sdk \
-				  webstorm \
+				          pycharm-ce \
+				          google-cloud-sdk \
+				          webstorm \
                   postman \
-				  docker \
-				  google-chrome \
-				  datagrip
+                  helm \
+				          docker \
+				          google-chrome \
+				          datagrip
 
 /opt/homebrew/bin/brew install python \
 			 git-lfs \
